@@ -5,3 +5,9 @@ spring:
       password: admin123
 common:
   commonAppName: "secureChatBackend"
+generalInfo:
+  appInfo:
+    excludedUrls: "/auth/register,/auth/login,/public,/error,/eureka"
+    constInfo:
+      secret: "secretsecretsecretsecretsecretsecretsecretsecretsecretsecretsecretsecretsecretsecretsecretsecretsecretsecretsecretsecretsecretsecretsecretsecretsecretsecretsecretsecretsecretsecretsecretsecretsecretsecretsecretsecretsecretsecretsecretsecretsecretsecretsecretsecretsecretsecretsecretsecretsecretsecretsecretsecretsecret"
+      expiration: 3600
